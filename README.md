@@ -1,6 +1,6 @@
 # Welcome to Git & Github!
 
-This repo is created to learn **Git and GitHub**. After learning Git, I'm using GitHub to practice how to work with GitHub.
+This repo is created to learn **Git and GitHub**. After learning Git, here I'm practicing working with GitHub.
 
 ### ⚠️ IMPORTANT!
 
