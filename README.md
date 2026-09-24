@@ -4,9 +4,9 @@ This repo is created to learn **Git and GitHub**. After learning Git, here I'm p
 
 ### ⚠️ IMPORTANT!
 
-This README file is for understanding the Markdown language.
-
 This repo **DOES NOT** contain any **CODE**. Its sole purpose is to **get hands dirty with version control**.
+
+Just learning Markdown as well in this README!
 
 ---
 
