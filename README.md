@@ -1,77 +1,122 @@
-# Welcome to Git & Github!
+# Welcome to Git & GitHub!
 
-This repo is created to learn **Git and GitHub**. After learning Git, here I'm practicing working with GitHub.
+This repo is created to learn **Git and GitHub** - starting with Git basics, then moving on to GitHub.
+
+---
 
 ### ⚠️ IMPORTANT!
 
 This repo **DOES NOT** contain any **CODE**. Its sole purpose is to **get hands dirty with version control**.
 
-Just learning Markdown as well in this README!
+---
+
+### Git
+
+Git is a distributed version control system. It is used to track changes in source code including who made changes.
 
 ---
 
-### Example Diagram
+### GitHub
 
-Diagram below shows the Git and Github workflow.
-
-![diagram of git workflow](git.png)
+GitHub is an online cloud-based platform that allows us to store our git repositories and collaborate with others.
 
 ---
 
-### Example List
+### Git Version & Help
 
-- item
-- another item
-- last item
-  - sub-item
-  - another sub-item
+```bash
+git --version
 
----
-
-### Example Numbered List
-
-1. item 1
-2. item 2
-3. item 3
-   1. sub-item 1
-   2. sub-item 2
-
----
-
-### Example Links
-
-- [click here to go to github](https://www.github.com)
-- <https://www.google.com>
-- <tharindu3646@gmail.com>
-
----
-
-### Example Blockquote
-
-> this is a sample blockquote. it seems like markdown ain't that hard. blockquotes are a great way to format text, for example, showing important facts.
-
----
-
-### Example Code Block
-
-```python
-#printing hello world in python
-print('hello, world!')
+git help
+git help <command>
+git help --all
 ```
 
 ---
 
-### Example Inline Code
+### Git Config
 
-printing hello world in python be like `print('hello, world!')`
+Let Git know who you are. Git uses this information to identify who made the commit.
+
+```bash
+git config --global user.name "<your name>"
+git config --global user.email "<your email>"
+
+# view git config
+git config user.name
+git config user.email
+git config --list
+```
 
 ---
 
-### Example Table
+### Git Basic Commands
 
-| Character      | Village | Role          |
-| -------------- | ------- | ------------- |
-| Naruto Uzumaki | Konoha  | Hokage        |
-| Sasuke Uchiha  | Konoha  | Rogue Ninja   |
-| Sakura Haruno  | Konoha  | Medical Ninja |
-| Kakashi Hatake | Konoha  | Sensei        |
+```bash
+# initialize a new git repo
+git init
+
+# view status of the repo
+git status
+
+# create and switch to a new branch
+git checkout -b <branchName>
+
+# add files to the staging area
+git add <file>
+git add .
+
+# commit staged files
+git commit -m "<commit message>"
+
+# view git commit log
+git log --all --graph
+```
+
+---
+
+### Work With Remote
+
+```bash
+# link a remote repo
+git remote add origin <url of the repo>
+
+# push local branch to remote
+git push -u origin <local branch name>
+
+# pull changes from remote to local
+git pull origin <remote branch name>
+
+```
+
+---
+
+### Git Reset
+
+Moves HEAD back and clears the Staging Area to match that commit.
+
+```bash
+git reset <commit hash>
+```
+
+---
+
+### Git Revert
+
+Creates a new commit that undoes the changes of a previous commit.
+
+```bash
+git revert <commit hash>
+```
+
+---
+
+### Git Stash
+
+```bash
+git stash
+git stash list
+git stash apply <stash name>
+```
+
+---
