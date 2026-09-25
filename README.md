@@ -6,7 +6,7 @@ This repo is created to learn **Git and GitHub** - starting with Git basics, the
 
 ### ⚠️ IMPORTANT!
 
-This repo **DOES NOT** contain any **CODE**. Its sole purpose is to **get hands dirty with version control**.
+This repo **DOES NOT** contain any **CODE**. Its sole purpose is to **get hands dirty with version controlling**.
 
 ---
 
@@ -36,7 +36,7 @@ git help --all
 
 ### Git Config
 
-Let Git know who you are. Git uses this information to identify who made the commit.
+Let Git know who you are. Git uses this information to identify who made commits.
 
 ```bash
 git config --global user.name "<your name>"
